@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Intro</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style> 
+    </style>
+    <body>
+        <div>
+            <h1 class="narutoFont">      Soundtrack</h1>    
+            <ol>
+                <p>Naruto Opening 4 - GO!!! by FLOW</p>
+                <audio controls autoplay id="audio-volume">
+                    <source src="audio/opening4.mp3" type="audio/mpeg">
+                </audio>
+                <p>Naruto Opening 5 - Seishun Kyousoukyoku by Sambomaster</p>
+                <audio controls="controls" id="audio-volume1">
+                    <source src="audio/opening5.mp3" type="audio/mpeg">
+                </audio>
+            </ol>
+        </div>
+        <script>
+            var audio = document.getElementById("audio-volume");
+            var audio1 = document.getElementById("audio-volume1");
+            audio.volume = 0.5;
+            audio1.volume = 0.5;
+        </script>
+    </body>
+</html>
